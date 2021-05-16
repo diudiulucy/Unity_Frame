@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using System.Xml;
+using System.Xml.Linq;
 public class Test : MonoBehaviour
 {
     // Start is called before the first frame update
     private Action<WWW> onSuccess;
     private string imgUrl = "https://www.baidu.com/img/bdlogo.png";
+    private string result;
     void Start()
     {
         this.onSuccess += this.SuccessMethod;
@@ -17,9 +20,60 @@ public class Test : MonoBehaviour
         // print("Done"+Time.time);
         // yield return new WaitForSeconds(1);
        
-        HttpWrapper hw = GetComponent<HttpWrapper>();
-        hw.GET(imgUrl,this.onSuccess);
+        // HttpWrapper hw = GetComponent<HttpWrapper>();
+        // hw.GET(imgUrl,this.onSuccess);
         // StopCoroutine("DoSomething");
+        // LoadXML("Test");
+        // StartCoroutine(LoadXMLSPath());
+        LoadXMLAb();
+    }
+
+    /**
+        Resources目录 只读，不能动态修改
+        主线程加载
+        资源读取用Resources.Load()
+        打包时压缩和加密
+     */
+    private void LoadXML(string path){
+        result = Resources.Load(path).ToString();
+        // XmlDocument doc = new XmlDocument();
+        // doc.LoadXml(result); 
+    }
+
+    /**
+        StreamingAssets目录 只读
+        主要用来存放二进制文件
+        只能用WWW来读取
+        原封不动打进包，不会压缩和加密（不要直接把数据文件放到这个目录打包）
+     */
+    IEnumerator LoadXMLSPath(){
+        string sPath = Application.streamingAssetsPath + "Test.xml";
+        WWW www = new WWW(sPath);
+        yield return www;
+        if(www.error == null){
+            print("LoadXML failed");
+        }else{
+             print("LoadXML success");
+        }
+        result = www.text;
+        print(www.text+"loadXmlspath");
+    }
+
+    void LoadXMLAb(){
+        AssetBundle ab;
+        string str = Application.streamingAssetsPath + "/test.bundle";
+        WWW www = new WWW(str);
+        www = WWW.LoadFromCacheOrDownload(str,0);
+        ab = www.assetBundle;
+        TextAsset test = ab.LoadAsset("Test.xml") as TextAsset;
+        result = test.ToString();
+    }
+
+    void OnGUI(){
+        GUIStyle titleStyle = new GUIStyle();
+        titleStyle.fontSize = 20;
+        titleStyle.normal.textColor = new Color(45f/256f,163f/256f,256f/256f,256f/256f);
+        GUI.Label(new Rect(0,0,500,200),result,titleStyle);
     }
 
     private void SuccessMethod(WWW www){

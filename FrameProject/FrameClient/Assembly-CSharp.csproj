@@ -38,6 +38,8 @@
   <ItemGroup>
      <Compile Include="Assets\Update\Src\Test.cs" />
      <Compile Include="Assets\Update\Src\HttpWrapper.cs" />
+     <Compile Include="Assets\Update\Src\MonoStudy.cs" />
+     <None Include="Assets\Update\Data\Test.xml" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

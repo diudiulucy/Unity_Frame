@@ -11,24 +11,28 @@ public class ExportAssetBundles : EditorWindow
     //    AssetDatabase.Refresh();
     //}
 
-    [MenuItem("BuildBundle/Build One Selected Obj Bundle/Android")]
+    [MenuItem("Tool/Build One Selected Obj Bundle/Android")]
     //设为静态方法
     static void Build1SelectedBundleAN()
     {
+         Debug.Log("=====================开始");
         //备打文件集合，当前为单个
         AssetBundleBuild[] abb = new AssetBundleBuild[1];
         //文件路径（当前为单个，多个文件使用数组的形式）
         string[] path = new string[1];
+      
         //获取文件路径（得到鼠标选中的文件）；
         path[0] = AssetDatabase.GetAssetPath(Selection.activeObject);
+
+        Debug.Log(path[0]);
         //备打文件路径名，从Asset/开始
         abb[0].assetNames = path;
         //包名
-        abb[0].assetBundleName = "assetbundle";
+        abb[0].assetBundleName = "test";
         //打包（“输出路径”，备打文件集合，打包设置，目标平台）
-        BuildPipeline.BuildAssetBundles("Assets/ABs", abb, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        BuildPipeline.BuildAssetBundles(Application.streamingAssetsPath, abb, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
 
-
+        AssetDatabase.Refresh();
     }
 
 
