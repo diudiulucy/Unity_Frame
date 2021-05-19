@@ -10,9 +10,14 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     private Action<WWW> onSuccess;
     private string imgUrl = "https://www.baidu.com/img/bdlogo.png";
-    private string result;
+    private string result = "hello world";
+
+    /**
+        Start 在第一帧更新之前调用
+     */
     void Start()
     {
+        // print("Start");
         this.onSuccess += this.SuccessMethod;
         // StartCoroutine("DoSomething");
         // print("Starting"+Time.time);
@@ -25,7 +30,37 @@ public class Test : MonoBehaviour
         // StopCoroutine("DoSomething");
         // LoadXML("Test");
         // StartCoroutine(LoadXMLSPath());
-        LoadXMLAb();
+        // LoadXMLAb();
+    }
+
+  
+    void OnDisable(){
+        // print("OnDisable");
+    }
+    
+    
+    // Update is called once per frame
+    void Update()
+    {
+        //  print("Update");
+        if(Input.GetKeyDown("s")){
+            print("Update");
+            StartCoroutine(ScreenShotPNG());
+        }
+    }
+
+
+
+    void OnGUI(){
+        // print("OnGUI");
+        GUIStyle titleStyle = new GUIStyle();
+        titleStyle.fontSize = 20;
+        titleStyle.normal.textColor = new Color(45f/256f,163f/256f,256f/256f,256f/256f);
+        GUI.Label(new Rect(0,0,500,200),result,titleStyle);
+    }
+
+    void Reset(){
+        // print("Reset");
     }
 
     /**
@@ -69,12 +104,6 @@ public class Test : MonoBehaviour
         result = test.ToString();
     }
 
-    void OnGUI(){
-        GUIStyle titleStyle = new GUIStyle();
-        titleStyle.fontSize = 20;
-        titleStyle.normal.textColor = new Color(45f/256f,163f/256f,256f/256f,256f/256f);
-        GUI.Label(new Rect(0,0,500,200),result,titleStyle);
-    }
 
     private void SuccessMethod(WWW www){
         if(www == null) return;
@@ -90,13 +119,7 @@ public class Test : MonoBehaviour
            
         print("WaitAndPrint" + Time.deltaTime);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown("s")){
-            StartCoroutine(ScreenShotPNG());
-        }
-    }
+
 
     IEnumerator WaitAndPrint(float waitTime)
     {

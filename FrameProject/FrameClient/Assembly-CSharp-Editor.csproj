@@ -39,6 +39,7 @@
      <Compile Include="Assets\Editor\ReferenceFinder\ReferenceFinder\ReferenceFinderWindow.cs" />
      <Compile Include="Assets\Editor\ReferenceFinder\ReferenceFinder\ReferenceFinderData.cs" />
      <Compile Include="Assets\Editor\ReferenceFinder\ReferenceFinder\AssetTreeView.cs" />
+     <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -653,6 +654,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{5bc9d6b4-16d2-e8f7-07b4-a9a72286ccfe}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
       <Project>{b713f215-b4ae-a951-44c2-f76bcfecba7a}</Project>
       <Name>Unity.AssetBundleBrowser.Editor</Name>
