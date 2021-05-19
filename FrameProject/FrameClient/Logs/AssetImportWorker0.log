@@ -19,3 +19,566 @@ Logs/AssetImportWorker0.log
 Successfully changed project path to: E:/Unity/Unity_Frame/FrameProject/FrameClient
 E:/Unity/Unity_Frame/FrameProject/FrameClient
 Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1c1 (1e553bf703d9)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unity_Frame/FrameProject/FrameClient/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2020 MB
+    Driver:   23.21.13.8857
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001207 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 2.062500 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.646700 ms  DeleteObjects: 0.072400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67878a740a6b29383db4cb28315414dc') in 0.010382 seconds
+  Import took 0.014277 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on Reporter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 2.663300 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.060900 ms MarkObjects: 2.403600 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 111.050451 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/back.png
+  artifactKey: Guid(a0632a18e7c665641b94fea66506ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/back.png using Guid(a0632a18e7c665641b94fea66506ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d93a0eec51437a5945f9827c44e7f6e') in 0.159577 seconds
+  Import took 0.164513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png
+  artifactKey: Guid(8702be598dd9f504ca33be2afee2ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png using Guid(8702be598dd9f504ca33be2afee2ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2da5b082d2dc98a35f93207569e965d') in 0.037772 seconds
+  Import took 0.044345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png
+  artifactKey: Guid(ff4dfb29f203a174ab8e4c498afe908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png using Guid(ff4dfb29f203a174ab8e4c498afe908a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0652157ab8da6c2d2b6e7d263d42eb') in 0.054845 seconds
+  Import took 0.059105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/memory.png
+  artifactKey: Guid(f447d62f2dacf9843be7cbf168a3a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/memory.png using Guid(f447d62f2dacf9843be7cbf168a3a9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088f67ee904ee32f29823674d8d11c2') in 0.038052 seconds
+  Import took 0.043025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/fps.png
+  artifactKey: Guid(90b2f48155dc0e74f8e428561ac79da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/fps.png using Guid(90b2f48155dc0e74f8e428561ac79da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978ac1b2857e575f21ff5b4270ddc52') in 0.031379 seconds
+  Import took 0.035958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png
+  artifactKey: Guid(8ffbb44a2c3adae45913474e4fd487f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png using Guid(8ffbb44a2c3adae45913474e4fd487f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2473e09dd6b3436c89804555335aff') in 0.043921 seconds
+  Import took 0.047649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png
+  artifactKey: Guid(2b898d54956773c4ca8dac4becfff81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png using Guid(2b898d54956773c4ca8dac4becfff81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4276843de3b3e771ba1b2d43ce9a42') in 0.029607 seconds
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/chart.png
+  artifactKey: Guid(903d664043815ca4a9cc1f548bdd4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/chart.png using Guid(903d664043815ca4a9cc1f548bdd4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985b28be19e4598693cce6a4f81f2beb') in 0.032104 seconds
+  Import took 0.036491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png
+  artifactKey: Guid(1054f346b49bc774e84a30b01e173cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png using Guid(1054f346b49bc774e84a30b01e173cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e6b6399790cd968b64d6b7563c6567') in 0.036622 seconds
+  Import took 0.040951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png
+  artifactKey: Guid(7eafdff7daf79fe4ea883940862a3b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png using Guid(7eafdff7daf79fe4ea883940862a3b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b493c15bed62586d144335d52e25e370') in 0.019828 seconds
+  Import took 0.024048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/search.png
+  artifactKey: Guid(bfef37b5a26d2264798616d960451329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/search.png using Guid(bfef37b5a26d2264798616d960451329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84e4b0c3ddac2184a6886c92da38020') in 0.027432 seconds
+  Import took 0.031928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/info.png
+  artifactKey: Guid(2954bef266e6d794aba08ceacc887a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/info.png using Guid(2954bef266e6d794aba08ceacc887a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ce3321f12b6f001b10ae2cfaa67bba') in 0.017053 seconds
+  Import took 0.020209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png
+  artifactKey: Guid(65382a9375963d842a164495d6431d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png using Guid(65382a9375963d842a164495d6431d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc09c81eb49289701f1ac79b73614c') in 0.035326 seconds
+  Import took 0.040706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png
+  artifactKey: Guid(e9011b1dc9256ad4d9c19a31c595f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png using Guid(e9011b1dc9256ad4d9c19a31c595f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bef686f14a0e5ea27f390de7394ca04') in 0.035765 seconds
+  Import took 0.040239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png
+  artifactKey: Guid(d27aad55b568c6544b0b95a95da44bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png using Guid(d27aad55b568c6544b0b95a95da44bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a0081f6ede8a15004c0db396aa8355') in 0.029257 seconds
+  Import took 0.033245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png
+  artifactKey: Guid(2580a2e903691e44282e56ed6e0ff37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png using Guid(2580a2e903691e44282e56ed6e0ff37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d11ca61043727b37f32c228df8cca1') in 0.030049 seconds
+  Import took 0.034258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/Reporter.prefab
+  artifactKey: Guid(4c18110ab56084913ba4d239d37da019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/Reporter.prefab using Guid(4c18110ab56084913ba4d239d37da019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5e33af619fe66c07eeed9ea99c5c12') in 0.065338 seconds
+  Import took 0.071425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png
+  artifactKey: Guid(7640ebf8b3a92124d821d3b4b8b3fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png using Guid(7640ebf8b3a92124d821d3b4b8b3fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d0e4701cc8d3d0301eeb8d40fc9600') in 0.021048 seconds
+  Import took 0.024969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/selected.png
+  artifactKey: Guid(17117a429b08e7e43b0b6c8421de69fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/selected.png using Guid(17117a429b08e7e43b0b6c8421de69fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcef922a4a93a8a314c4cf747ad594b') in 0.037808 seconds
+  Import took 0.041665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/date.png
+  artifactKey: Guid(a7561cd0a9f62a84e99bff1abce2a222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/date.png using Guid(a7561cd0a9f62a84e99bff1abce2a222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9049a1437cfa869d06b9d9852f782155') in 0.025435 seconds
+  Import took 0.029847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png
+  artifactKey: Guid(999d31716332cc04eb4abc9c9270b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png using Guid(999d31716332cc04eb4abc9c9270b0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ca34f25ca7baf7db970cf9ba528bba') in 0.035352 seconds
+  Import took 0.038734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/software.png
+  artifactKey: Guid(6c91fc88ee6c791468318d85febfb48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/software.png using Guid(6c91fc88ee6c791468318d85febfb48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ba3c9172751623d6e7c455ed3f0ec') in 0.049708 seconds
+  Import took 0.052897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png
+  artifactKey: Guid(ea91678cb5fa4914d9a87d5882e46bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png using Guid(ea91678cb5fa4914d9a87d5882e46bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267932674f1a371f22101fba477095f1') in 0.022960 seconds
+  Import took 0.029534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/clear.png
+  artifactKey: Guid(112c6fcf56e349449ab2e6ad76b67816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/clear.png using Guid(112c6fcf56e349449ab2e6ad76b67816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea25dd6909e4204703230b2443e32212') in 0.030936 seconds
+  Import took 0.038808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/bar.png
+  artifactKey: Guid(8128d4f4c0193e34586f9631ef7d4787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/bar.png using Guid(8128d4f4c0193e34586f9631ef7d4787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5d2b4b35d776deb84db7567b053a1e') in 0.038556 seconds
+  Import took 0.042616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png
+  artifactKey: Guid(3a6bc61a8319b1949ab9f1f2db1302b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png using Guid(3a6bc61a8319b1949ab9f1f2db1302b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711c017cd3f81ecc77173e58e1210b32') in 0.028090 seconds
+  Import took 0.032788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png
+  artifactKey: Guid(844af5f04b57ce841a17503f7e44ac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png using Guid(844af5f04b57ce841a17503f7e44ac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78da1592bcae02102901ba9fed2de616') in 0.030808 seconds
+  Import took 0.034734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001190 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/user.png
+  artifactKey: Guid(2bcdc012e7356f1449ce7d3a31dc458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/user.png using Guid(2bcdc012e7356f1449ce7d3a31dc458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37375279706a40e8c0297d543ff7894') in 0.036073 seconds
+  Import took 0.040737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin
+  artifactKey: Guid(1cc68832d00d3284a9324a4dc05be753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin using Guid(1cc68832d00d3284a9324a4dc05be753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f4e0911513868f2569cba50441f28f') in 0.017138 seconds
+  Import took 0.020569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png
+  artifactKey: Guid(1066be8e7b994b94c8a182b8dbe30705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png using Guid(1066be8e7b994b94c8a182b8dbe30705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eae646039603ff7681f4aae3c2b7aa') in 0.020796 seconds
+  Import took 0.024228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png
+  artifactKey: Guid(f44f16dd98d65e74e8001cf19cec1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png using Guid(f44f16dd98d65e74e8001cf19cec1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8913560b0f11788ccae7479ada15dbf1') in 0.022299 seconds
+  Import took 0.026777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/close.png
+  artifactKey: Guid(b65e9be99974bc94eab5d6698811d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/close.png using Guid(b65e9be99974bc94eab5d6698811d0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4172feea8b2c662dc81099440f002680') in 0.034911 seconds
+  Import took 0.038727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png
+  artifactKey: Guid(564b866f40be55d40bb624f85197535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png using Guid(564b866f40be55d40bb624f85197535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7be5ecfece3fa9b1a171081d757c3e') in 0.045815 seconds
+  Import took 0.049982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png
+  artifactKey: Guid(782e03669fa4a614e89ef56252134250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png using Guid(782e03669fa4a614e89ef56252134250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b861e139b7b66398d8c16b43d8fd72d') in 0.060784 seconds
+  Import took 0.064603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png
+  artifactKey: Guid(4623f326a884a2546ab39078bf7822c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png using Guid(4623f326a884a2546ab39078bf7822c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43495e81b47f90fe81435531fcccdd38') in 0.043584 seconds
+  Import took 0.046346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png
+  artifactKey: Guid(e876b803a4dd5c5488078071d15aa9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png using Guid(e876b803a4dd5c5488078071d15aa9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf5142cc2b162ccac13d59ebf09e62c') in 0.018478 seconds
+  Import took 0.021903 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on Reporter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 2.534100 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.294700 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 58.750843 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/ReporterScene.unity
+  artifactKey: Guid(50197f88423d447488d9bff2736b47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/ReporterScene.unity using Guid(50197f88423d447488d9bff2736b47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690fb222558c1bd5040f86b189fecb32') in 0.030308 seconds
+  Import took 0.033452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.624144 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs
+  artifactKey: Guid(fa24ce3e8b4a445479906686d9756911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs using Guid(fa24ce3e8b4a445479906686d9756911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c92a8cadb4b926286b6a0b70148a0') in 0.019985 seconds
+  Import took 0.026801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs
+  artifactKey: Guid(fa24ce3e8b4a445479906686d9756911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs using Guid(fa24ce3e8b4a445479906686d9756911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c92a8cadb4b926286b6a0b70148a0') in 0.004219 seconds
+  Import took 0.008002 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on Reporter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 3.817300 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.072400 ms MarkObjects: 3.461600 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 38.897413 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/Reporter.prefab
+  artifactKey: Guid(4c18110ab56084913ba4d239d37da019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/Reporter.prefab using Guid(4c18110ab56084913ba4d239d37da019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad628aa662d289dbda984f7e9640337c') in 0.075165 seconds
+  Import took 0.081381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.105121 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity
+  artifactKey: Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity using Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5e4d240f4c596d5be24041dd314849') in 0.011560 seconds
+  Import took 0.014513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010194 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity
+  artifactKey: Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity using Guid(1cf4e2e23b6e31d498242c9db1608ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5e4d240f4c596d5be24041dd314849') in 0.004521 seconds
+  Import took 0.007970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.843193 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test/test2.unity
+  artifactKey: Guid(91c6d29558bd35e4d9d9883614fa135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test/test2.unity using Guid(91c6d29558bd35e4d9d9883614fa135b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b11320af6039a4e8cabaac3aa2a6251') in 0.013815 seconds
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on Reporter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 3.320600 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.995000 ms  DeleteObjects: 0.026500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 16.806849 seconds.
+  path: Assets/Unity-Logs-Viewer/Reporter/Test
+  artifactKey: Guid(7c32ffadc35cc8045a81f08654eaf6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity-Logs-Viewer/Reporter/Test using Guid(7c32ffadc35cc8045a81f08654eaf6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae4376c254bf6635c0ed7c7499ebfc') in 0.011549 seconds
+  Import took 0.014919 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on Reporter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 2.185800 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.111500 ms MarkObjects: 1.819200 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
